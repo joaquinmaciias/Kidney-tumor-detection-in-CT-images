@@ -1,0 +1,8 @@
+modality : CT
+datalist : C:\Users\Asus\Documents\TFG\Data\kits23_monai\dataset.json
+dataroot : C:\Users\Asus\Documents\TFG\Data\kits23_monai
+class_names :
+  - {name: kidney_and_mass, index: [1,2,3]}
+  - {name: mass,            index: [2,3]}
+  - {name: tumor,           index: [2]}
+sigmoid : true
