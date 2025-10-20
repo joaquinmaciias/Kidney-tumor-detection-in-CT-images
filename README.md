@@ -4,7 +4,6 @@
 **Supervisor:** Meritxell Riera i Marín  
 **Collaborating Entity:** Sycai Medical – ICAI  
 
----
 
 ## Overview
 
@@ -14,13 +13,11 @@ This project presents a **comparative evaluation of several Deep Learning and Co
 Public datasets **KiTS19**, **KiTS21**, and **KiTS23** are used to analyze multiple **convolutional architectures**, focusing on both **2D and 3D segmentation** strategies.  
 The models compared include **U-Net**, **nnU-Net**, **FCN**, **DeepLab**, **MONAI Auto3DSeg**, and a training framework with **Stochastic Gradient Descent with Restarts (SGDR)**.
 
----
 
 ## Objective
 
 To experimentally evaluate and compare the most relevant **CNN architectures** for kidney tumor segmentation, identifying the model that offers the best trade-off between **accuracy**, **robustness**, and **reliability**, considering volumetric precision and uncertainty estimation.
 
----
 
 ## Models Evaluated
 
@@ -33,7 +30,6 @@ To experimentally evaluate and compare the most relevant **CNN architectures** f
 | **MONAI Auto3DSeg** | AutoML pipeline from MONAI that trains and ensembles models such as SegResNet, DynUNet, and Swin-UNETR. | Automated model selection and ensembling; best overall accuracy. | 0.87 |
 | **SGDR** | Training strategy employing Stochastic Gradient Descent with Restarts. | Improves convergence and generalization of CNNs. | — |
 
----
 
 ## Datasets
 
@@ -41,7 +37,6 @@ To experimentally evaluate and compare the most relevant **CNN architectures** f
   Publicly available datasets containing annotated CT scans for **kidney and tumor segmentation**.  
   Each case includes **3D volumes** with expert-labeled masks for training and evaluation.
 
----
 
 ## Metrics
 
